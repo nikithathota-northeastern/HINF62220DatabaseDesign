@@ -40,11 +40,6 @@ GROUP BY StudentFK, ProgramFK
 ORDER BY 1;
 
 -- Q4
-SELECT CS.CoursesFK, StudentFK, Day, StartTime, EndTime FROM StudentCourseRegistration AS SCR
-JOIN Courseschedule as CS ON SCR.CourseFK = CS.CoursesFK
-WHERE RegistrationStatus = 'Registered';
-
--- Q5
 SELECT COUNT(*), InstructorFK, Semester, Year as num_courses
 FROM Courses
 WHERE Year = 2025 AND Semester = 'Spring'
@@ -52,7 +47,7 @@ GROUP BY 2, 3, 4
 HAVING COUNT(*) > 2
 ORDER BY 1 DESC;
 
--- Q6
+-- Q5
 SELECT COUNT(SCR.StudentFK), SCR.CourseFK FROM StudentCourseRegistration AS SCR
 JOIN Courses AS C ON C.CoursesKey = SCR.CourseFK
 WHERE RegistrationStatus = 'Registered' AND Year = 2025 AND (Semester = 'Summer' OR Semester = 'Fall')
@@ -60,14 +55,14 @@ GROUP BY 2
 HAVING COUNT(SCR.StudentFK) < 15
 ORDER BY 1;
 
--- Q7
+-- Q6
 SELECT COUNT(SCR.StudentFK), SCR.CourseFK FROM StudentCourseRegistration AS SCR
 JOIN Courses AS C ON C.CoursesKey = SCR.CourseFK
 WHERE RegistrationStatus = 'Waitlisted' AND Year = 2025 AND (Semester = 'Summer' OR Semester = 'Fall')
 GROUP BY 2
 ORDER BY 1 DESC;
 
--- Q8
+-- Q7
 SELECT * FROM courseschedule CS1 , courseschedule CS2
 WHERE CS1.CoursesFK <> CS2.CoursesFK
 AND (CS1.ClassroomFK is NOT NULL AND CS2.ClassroomFK is NOT NULL)
@@ -75,7 +70,7 @@ AND CS1.ClassRoomFK = CS2.ClassRoomFK
 AND (CS1.Day = CS2.Day)
 AND ((CS1.StartTime = CS2.StartTime) AND (CS2.StartTime = CS2.EndTime));
 
--- Q9
+-- Q8
 SELECT AVG(NUM_COURSES), Sem, Year FROM
 (SELECT COUNT(SCR.CourseFK) AS NUM_COURSES, C.Semester AS Sem, C.Year AS Year, SCR.StudentFK as Student FROM Courses C
 JOIN StudentCourseRegistration AS SCR ON C.CoursesKey = SCR.CourseFK
