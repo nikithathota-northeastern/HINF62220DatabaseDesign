@@ -1,0 +1,141 @@
+CoursesKey,CourseName,ProgramFK,Credits,CourseType,Semester,Year,CourseMode,ClassStrength,InstructorFK,StartDate,EndDate
+MSAI101,"Artifical Intelligence",3.0,2.0,Core,Spring,2023.0,Online,20.0,1002.0,2023-01-15,2023-05-02
+MSAI102,"Data algorithms and Data Structure",3.0,2.0,Core,Spring,2024.0,Offline,20.0,1004.0,2024-01-15,2024-05-02
+MSAI103,"Natural Language Processing",3.0,2.0,Elective,Fall,2023.0,Offline,40.0,1006.0,2023-08-25,2023-12-12
+MSAI104,"Machine Learning",3.0,2.0,Elective,Fall,2024.0,Offline,20.0,1007.0,2024-08-25,2024-12-12
+MSAI105,"AI Ethics And Fairness",3.0,2.0,Elective,Fall,2025.0,Offline,20.0,1008.0,2025-08-25,2025-12-12
+MSAI106,"Human Computer Interaction",3.0,2.0,General,Spring,2025.0,Offline,20.0,1012.0,2025-01-15,2025-05-02
+MSAI107,"Cloud Coputing for AI",3.0,2.0,General,Summer,2023.0,Offline,20.0,1013.0,2023-05-26,2023-08-15
+MSAI108,"reinforcement learning",3.0,2.0,General,Spring,2023.0,Offline,20.0,1015.0,2023-01-15,2023-05-02
+MSAI109,"AI Capstone Project",3.0,6.0,Capstone,Fall,2023.0,Online,20.0,1016.0,2023-08-25,2023-12-12
+MSDS201,"Introduction to Data science",4.0,2.0,Core,Fall,2025.0,Offline,40.0,1018.0,2025-08-25,2025-12-12
+MSDS202,"Data wrangling and pre-processing",4.0,2.0,Core,Fall,2026.0,Offline,20.0,1019.0,2026-08-25,2026-12-12
+MSDS203,"Deep Learning",4.0,2.0,Elective,Summer,2025.0,Offline,40.0,1020.0,2025-05-26,2025-08-15
+MSDS204,"Data visualization",4.0,2.0,Elective,Summer,2026.0,Offline,20.0,1021.0,2026-05-26,2026-08-15
+MSDS205,"Data ethics and privacy",4.0,2.0,Elective,Spring,2025.0,Offline,20.0,1023.0,2025-01-15,2025-05-02
+MSDS206,"R for statistical Computing",4.0,2.0,Technical,Fall,2027.0,Offline,40.0,1024.0,2027-08-25,2027-12-12
+MSDS207,"Python for data science",4.0,2.0,Technical,Spring,2026.0,Offline,20.0,1025.0,2026-01-15,2026-05-02
+MSDS208,"Big data technologies",4.0,2.0,Technical,Spring,2027.0,Offline,20.0,1027.0,2027-01-15,2027-05-02
+MSDS209,"Data science Capstone project",4.0,6.0,Capstone,Spring,2027.0,Online,20.0,1028.0,2027-01-15,2027-05-02
+MSFI301,"Financial Accounting",7.0,2.0,Core,Spring,2025.0,Offline,40.0,1029.0,2025-01-15,2025-05-02
+MSFI302,"Corporate Finance",7.0,2.0,Core,Fall,2025.0,Offline,40.0,1030.0,2025-08-25,2025-12-12
+MSFI303,"Equity evaluation",7.0,2.0,Elective,Fall,2026.0,Online,40.0,1031.0,2026-08-25,2026-12-12
+MSFI304,"behavioral finance",7.0,2.0,Elective,Spring,2026.0,Offline,20.0,1032.0,2026-01-15,2026-05-02
+MSFI305,"financial modeling",7.0,2.0,Elective,Fall,2027.0,Offline,20.0,1033.0,2027-08-25,2027-12-12
+MSFI306,"ML in finance",7.0,2.0,Technical,Spring,2027.0,Offline,40.0,1035.0,2027-01-15,2027-05-02
+MSFI307,"Data analytics for finance",7.0,2.0,Technical,Fall,2027.0,Offline,20.0,1036.0,2027-08-25,2027-12-12
+MSFI308,"programming for finance",7.0,2.0,Technical,Summer,2025.0,Offline,20.0,1037.0,2025-05-26,2025-08-15
+MSFI309,"FI Capstone project",7.0,6.0,Capstone,Spring,2025.0,Online,40.0,1038.0,2025-01-15,2025-05-02
+MSDA401,"Introduction to data analytics",8.0,2.0,Core,Spring,2022.0,Online,20.0,1001.0,2022-01-15,2022-05-02
+MSDA402,"Data mining",8.0,2.0,Core,Spring,2023.0,Offline,40.0,1003.0,2023-01-15,2023-05-02
+MSDA403,"R for statistical modeling",8.0,2.0,Technical,Spring,2024.0,Offline,20.0,1005.0,2024-01-15,2024-05-02
+MSDA404,"Cloud platforms",8.0,2.0,Technical,Summer,2022.0,Offline,40.0,1009.0,2022-05-26,2022-08-15
+MSDA405,"Big data analytics",8.0,2.0,Technical,Fall,2022.0,Offline,20.0,1010.0,2022-08-25,2022-12-12
+MSDA406,"Business Intelligence",8.0,2.0,General,Fall,2023.0,Offline,40.0,1011.0,2023-08-25,2023-12-12
+MSDA407,"Storytelling with data",8.0,2.0,General,Spring,2023.0,Offline,40.0,1014.0,2023-01-15,2023-05-02
+MSDA408,"Time series analysis",8.0,2.0,General,Summer,2023.0,Online,40.0,1017.0,2023-05-26,2023-08-15
+MSDA409,"DA capstone project",8.0,6.0,Capstone,Fall,2024.0,Offline,40.0,1022.0,2024-08-25,2024-12-12
+MSDR501,"Digital media foundation",11.0,2.0,Core,Fall,2025.0,Offline,40.0,1039.0,2025-08-25,2025-12-12
+MSDR502,"Visual communication and design",11.0,2.0,Core,Fall,2026.0,Offline,20.0,1040.0,2026-08-25,2026-12-12
+MSDR503,"3D modeling and animation",11.0,2.0,Technical,Spring,2025.0,Offline,40.0,1041.0,2025-01-15,2025-05-02
+MSDR504,"UX/UI design",11.0,2.0,Technical,Fall,2027.0,Offline,40.0,1042.0,2027-08-25,2027-12-12
+MSDR505,"web and multimedia development",11.0,2.0,Technical,Spring,2026.0,Offline,40.0,1044.0,2026-01-15,2026-05-02
+MSDR506,"Portfolio development",11.0,2.0,Elective,Spring,2027.0,Offline,40.0,1045.0,2027-01-15,2027-05-02
+MSDR507,"Digital ethics and media law",11.0,2.0,Elective,Spring,2027.0,Offline,20.0,1048.0,2027-01-15,2027-05-02
+MSDR508,"cultural and social issues in digital media",11.0,2.0,Elective,Spring,2027.0,Offline,20.0,1049.0,2027-01-15,2027-05-02
+MSDR509,"DR capstone project",11.0,6.0,Capstone,Fall,2027.0,Offline,20.0,1050.0,2027-08-25,2027-12-12
+MAAE601,"Contemporary art practice",12.0,2.0,Core,Fall,2023.0,Offline,40.0,1002.0,2023-08-25,2023-12-12
+MAAE602,"Art history",12.0,2.0,Core,Fall,2024.0,Offline,40.0,1004.0,2024-08-25,2024-12-12
+MAAE603,"Performance art",12.0,2.0,General,Fall,2025.0,Offline,40.0,1006.0,2025-08-25,2025-12-12
+MAAE604,"Digital art",12.0,2.0,General,Spring,2023.0,Offline,40.0,1007.0,2023-01-15,2023-05-02
+MAAE605,"gender and identity in arts",12.0,2.0,General,Fall,2023.0,Offline,20.0,1008.0,2023-08-25,2023-12-12
+MAAE606,"art and policies",12.0,2.0,Elective,Fall,2023.0,Offline,20.0,1012.0,2023-08-25,2023-12-12
+MAAE607,"cueatorial practice",12.0,2.0,Elective,Spring,2024.0,Offline,40.0,1013.0,2024-01-15,2024-05-02
+MAAE608,"installation art",12.0,2.0,Elective,Spring,2025.0,Offline,20.0,1015.0,2025-01-15,2025-05-02
+MAAE609,"AR capstone project",12.0,6.0,Capstone,Summer,2023.0,Offline,20.0,1016.0,2023-05-26,2023-08-15
+MSPH701,Epidemology,15.0,2.0,Core,Spring,2025.0,Offline,40.0,1018.0,2025-01-15,2025-05-02
+MSPH702,Biostatistics,15.0,2.0,Core,Fall,2025.0,Offline,20.0,1019.0,2025-08-25,2025-12-12
+MSPH703,"Publich health research methods",15.0,2.0,General,Spring,2026.0,Offline,40.0,1020.0,2026-01-15,2026-05-02
+MSPH704,"Data management and informatics",15.0,2.0,General,Fall,2026.0,Offline,40.0,1021.0,2026-08-25,2026-12-12
+MSPH705,Regression,15.0,2.0,General,Spring,2027.0,Offline,20.0,1023.0,2027-01-15,2027-05-02
+MSPH706,"Infectious disease epidemology",15.0,2.0,Elective,Fall,2027.0,Offline,20.0,1024.0,2027-08-25,2027-12-12
+MSPH707,"Chronic disease epidemology",15.0,2.0,Elective,Spring,2027.0,Offline,20.0,1025.0,2027-01-15,2027-05-02
+MSPH708,"Systemic review and meta-analysis",15.0,2.0,Elective,Spring,2027.0,Offline,40.0,1027.0,2027-01-15,2027-05-02
+MSPH709,"PH capstone project",15.0,6.0,Capstone,Spring,2027.0,Offline,40.0,1028.0,2027-01-15,2027-05-02
+MSHI801,"Introduction to health informatics",16.0,2.0,Core,Spring,2025.0,Offline,40.0,1029.0,2025-01-15,2025-05-02
+MSHI802,"Electronic health records",16.0,2.0,Core,Fall,2025.0,Offline,40.0,1030.0,2025-08-25,2025-12-12
+MSHI803,"health data analytics",16.0,2.0,Technical,Spring,2026.0,Offline,40.0,1031.0,2026-01-15,2026-05-02
+MSHI804,"database systems in healthcare",16.0,2.0,Technical,Fall,2026.0,Offline,20.0,1032.0,2026-08-25,2026-12-12
+MSHI805,"data visualization for healthcare",16.0,2.0,Technical,Fall,2027.0,Offline,40.0,1033.0,2027-08-25,2027-12-12
+MSHI806,"ethics in health informatics",16.0,2.0,Elective,Summer,2025.0,Offline,40.0,1035.0,2025-05-26,2025-08-15
+MSHI807,"security and privacy in health informatics",16.0,2.0,Elective,Fall,2025.0,Offline,20.0,1036.0,2025-08-25,2025-12-12
+MSHI808,"healthcare system and policies",16.0,2.0,Elective,Spring,2027.0,Offline,20.0,1037.0,2027-01-15,2027-05-02
+MSHI809,"HI capstone project",16.0,6.0,Capstone,Spring,2027.0,Online,20.0,1038.0,2027-01-15,2027-05-02
+MSBE901,"Biomedical Instrumentation",19.0,2.0,Core,Spring,2025.0,Offline,40.0,1039.0,2025-01-15,2025-05-02
+MSBE902,"physiology for engineers",19.0,2.0,Core,Summer,2025.0,Offline,40.0,1040.0,2025-05-26,2025-08-15
+MSBE903,biomechanics,19.0,2.0,Elective,Fall,2025.0,Offline,20.0,1041.0,2025-08-25,2025-12-12
+MSBE904,"biomedical devices",19.0,2.0,Elective,Fall,2026.0,Offline,40.0,1042.0,2026-08-25,2026-12-12
+MSBE905,"neural engineering",19.0,2.0,Elective,Fall,2027.0,Offline,20.0,1044.0,2027-08-25,2027-12-12
+MSBE906,"medical engineering",19.0,2.0,General,Spring,2026.0,Offline,40.0,1045.0,2026-01-15,2026-05-02
+MSBE907,biomaterials,19.0,2.0,General,Fall,2026.0,Offline,20.0,1048.0,2026-08-25,2026-12-12
+MSBE908,"systems biology",19.0,2.0,General,Fall,2026.0,Offline,40.0,1049.0,2026-08-25,2026-12-12
+MSBE909,"BE capstone project",19.0,6.0,Capstone,Summer,2026.0,Offline,40.0,1050.0,2026-05-26,2026-08-15
+MSCE111,"Geotechnological Engineering",20.0,2.0,Core,Spring,2025.0,Offline,40.0,1002.0,2025-01-15,2025-05-02
+MSCE112,"Environmental engineering",20.0,2.0,Core,Fall,2025.0,Offline,40.0,1004.0,2025-08-25,2025-12-12
+MSCE113,"Structural engineering",20.0,2.0,Elective,Fall,2026.0,Offline,20.0,1006.0,2026-08-25,2026-12-12
+MSCE114,"Transportation engineering",20.0,2.0,Elective,Spring,2026.0,Online,40.0,1007.0,2026-01-15,2026-05-02
+MSCE115,"Construction management",20.0,2.0,Elective,Spring,2027.0,Offline,40.0,1008.0,2027-01-15,2027-05-02
+MSCE116,"structural engineering lab",20.0,2.0,Lab,Fall,2027.0,Offline,40.0,1012.0,2027-08-25,2027-12-12
+MSCE117,"concrete and steel designing lab",20.0,2.0,Lab,Fall,2027.0,Offline,40.0,1013.0,2027-08-25,2027-12-12
+MSCE118,"fine element modeling lab",20.0,2.0,Lab,Fall,2027.0,Offline,20.0,1015.0,2027-08-25,2027-12-12
+MSCE119,"CE capstone project",20.0,6.0,Capstone,Spring,2027.0,Offline,20.0,1016.0,2027-01-15,2027-05-02
+E0131,"Introduction to Data Science",1.0,8.0,General,Spring,2026.0,Online,40.0,1002.0,2026-01-15,2026-05-02
+E0132,"Principles of Health Informatics",1.0,8.0,General,Fall,2024.0,Offline,40.0,1004.0,2024-08-25,2024-12-12
+E0133,"Fundamentals of Programming",1.0,8.0,General,Fall,2024.0,Online,20.0,1006.0,2024-08-25,2024-12-12
+E0134,"Applications of Economics",1.0,8.0,General,Spring,2025.0,Offline,40.0,1007.0,2025-01-15,2025-05-02
+E0135,"Case Studies in Psychology",1.0,8.0,General,Summer,2024.0,Offline,40.0,1008.0,2024-05-26,2024-08-15
+I0231,"Introduction to Data Science",2.0,8.0,General,Summer,2021.0,Online,20.0,1001.0,2021-05-26,2021-08-15
+I0232,"Principles of Health Informatics",2.0,8.0,General,Spring,2024.0,Online,20.0,1003.0,2024-01-15,2024-05-02
+I0233,"Fundamentals of Programming",2.0,8.0,General,Fall,2024.0,Offline,20.0,1005.0,2024-08-25,2024-12-12
+I0234,"Applications of Economics",2.0,8.0,General,Spring,2025.0,Online,20.0,1009.0,2025-01-15,2025-05-02
+I0235,"Case Studies in Psychology",2.0,8.0,General,Summer,2024.0,Online,40.0,1010.0,2024-05-26,2024-08-15
+A0531,"Introduction to Data Science",5.0,8.0,General,Summer,2025.0,Online,20.0,1012.0,2025-05-26,2025-08-15
+A0532,"Principles of Health Informatics",5.0,8.0,General,Spring,2026.0,Offline,40.0,1013.0,2026-01-15,2026-05-02
+A0533,"Fundamentals of Programming",5.0,8.0,General,Spring,2027.0,Offline,40.0,1015.0,2027-01-15,2027-05-02
+A0534,"Applications of Economics",5.0,8.0,General,Spring,2028.0,Online,20.0,1016.0,2028-01-15,2028-05-02
+A0535,"Case Studies in Psychology",5.0,8.0,General,Summer,2027.0,Online,40.0,1018.0,2027-05-26,2027-08-15
+M0631,"Introduction to Data Science",6.0,8.0,General,Fall,2021.0,Offline,40.0,1011.0,2021-08-25,2021-12-12
+M0632,"Principles of Health Informatics",6.0,8.0,General,Fall,2024.0,Offline,20.0,1014.0,2024-08-25,2024-12-12
+M0633,"Fundamentals of Programming",6.0,8.0,General,Summer,2023.0,Online,40.0,1017.0,2023-05-26,2023-08-15
+M0634,"Applications of Economics",6.0,8.0,General,Fall,2023.0,Offline,20.0,1019.0,2023-08-25,2023-12-12
+M0635,"Case Studies in Psychology",6.0,8.0,General,Spring,2024.0,Offline,20.0,1021.0,2024-01-15,2024-05-02
+P0931,"Introduction to Data Science",9.0,8.0,General,Summer,2019.0,Offline,40.0,1022.0,2019-05-26,2019-08-15
+P0932,"Principles of Health Informatics",9.0,8.0,General,Spring,2020.0,Offline,40.0,1024.0,2020-01-15,2020-05-02
+P0933,"Fundamentals of Programming",9.0,8.0,General,Fall,2019.0,Offline,40.0,1026.0,2019-08-25,2019-12-12
+P0934,"Applications of Economics",9.0,8.0,General,Spring,2022.0,Offline,40.0,1027.0,2022-01-15,2022-05-02
+P0935,"Case Studies in Psychology",9.0,8.0,General,Fall,2020.0,Offline,20.0,1028.0,2020-08-25,2020-12-12
+A1031,"Introduction to Data Science",10.0,8.0,General,Spring,2025.0,Offline,20.0,1020.0,2025-01-15,2025-05-02
+A1032,"Principles of Health Informatics",10.0,8.0,General,Spring,2027.0,Online,40.0,1023.0,2027-01-15,2027-05-02
+A1033,"Fundamentals of Programming",10.0,8.0,General,Fall,2027.0,Offline,40.0,1025.0,2027-08-25,2027-12-12
+A1034,"Applications of Economics",10.0,8.0,General,Fall,2025.0,Online,40.0,1029.0,2025-08-25,2025-12-12
+A1035,"Case Studies in Psychology",10.0,8.0,General,Fall,2028.0,Offline,40.0,1030.0,2028-08-25,2028-12-12
+H1331,"Introduction to Data Science",13.0,8.0,General,Fall,2027.0,Online,40.0,1031.0,2027-08-25,2027-12-12
+H1332,"Principles of Health Informatics",13.0,8.0,General,Spring,2028.0,Offline,20.0,1032.0,2028-01-15,2028-05-02
+H1333,"Fundamentals of Programming",13.0,8.0,General,Fall,2029.0,Online,20.0,1033.0,2029-08-25,2029-12-12
+H1334,"Applications of Economics",13.0,8.0,General,Summer,2027.0,Online,40.0,1035.0,2027-05-26,2027-08-15
+H1335,"Case Studies in Psychology",13.0,8.0,General,Fall,2028.0,Online,20.0,1036.0,2028-08-25,2028-12-12
+I1431,"Introduction to Data Science",14.0,8.0,General,Fall,2026.0,Online,20.0,1037.0,2026-08-25,2026-12-12
+I1432,"Principles of Health Informatics",14.0,8.0,General,Summer,2024.0,Offline,40.0,1038.0,2024-05-26,2024-08-15
+I1433,"Fundamentals of Programming",14.0,8.0,General,Spring,2024.0,Offline,20.0,1039.0,2024-01-15,2024-05-02
+I1434,"Applications of Economics",14.0,8.0,General,Fall,2025.0,Offline,20.0,1040.0,2025-08-25,2025-12-12
+I1435,"Case Studies in Psychology",14.0,8.0,General,Spring,2028.0,Offline,40.0,1041.0,2028-01-15,2028-05-02
+E1731,"Introduction to Data Science",17.0,8.0,General,Fall,2023.0,Offline,20.0,1042.0,2023-08-25,2023-12-12
+E1732,"Principles of Health Informatics",17.0,8.0,General,Fall,2025.0,Offline,20.0,1044.0,2025-08-25,2025-12-12
+E1733,"Fundamentals of Programming",17.0,8.0,General,Summer,2025.0,Offline,40.0,1045.0,2025-05-26,2025-08-15
+E1734,"Applications of Economics",17.0,8.0,General,Spring,2026.0,Offline,40.0,1048.0,2026-01-15,2026-05-02
+E1735,"Case Studies in Psychology",17.0,8.0,General,Summer,2025.0,Offline,40.0,1049.0,2025-05-26,2025-08-15
+E1831,"Introduction to Data Science",18.0,8.0,General,Fall,2022.0,Online,40.0,1050.0,2022-08-25,2022-12-12
+E1832,"Principles of Health Informatics",18.0,8.0,General,Spring,2026.0,Offline,40.0,1050.0,2026-01-15,2026-05-02
+E1833,"Fundamentals of Programming",18.0,8.0,General,Summer,2025.0,Online,40.0,1002.0,2025-05-26,2025-08-15
+E1834,"Applications of Economics",18.0,8.0,General,Summer,2023.0,Offline,20.0,1004.0,2023-05-26,2023-08-15
+E1835,"Case Studies in Psychology",18.0,8.0,General,Spring,2026.0,Online,20.0,1006.0,2026-01-15,2026-05-02

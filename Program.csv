@@ -1,0 +1,21 @@
+ProgramKey,ProgramName,ProgramStartDate,ProgramEndDate,ProgramCredits,DepartmentFK,ProgramStatus
+1,"B.S. in Computer Engineering",2022-01-15,2026-01-15,40,D001,Active
+2,"B.S. in Artificial Intelligence",2021-01-10,2025-01-10,40,D001,Inactive
+3,"M.S. in Artificial Intelligence",2023-05-04,2025-05-04,18,D001,Active
+4,"M.S. in Data Science",2025-05-07,2027-05-07,18,D001,Planned
+5,"B.S. in Accounting",2024-05-09,2028-05-09,40,D002,Active
+6,"B.S. in  Marketing",2020-08-01,2024-08-01,40,D002,Inactive
+7,"M.S. in Finance",2025-08-10,2027-08-10,18,D002,Planned
+8,"M.S. in Data Analytics",2022-01-15,2024-01-15,18,D002,Inactive
+9,"B.F.A in Photography",2019-01-18,2023-01-18,40,D003,Inactive
+10,"B.A. in Animation",2024-08-14,2028-08-14,40,D003,Active
+11,"M.S. in Digital Arts",2025-05-20,2027-05-20,18,D003,Planned
+12,"M.A in Art Education",2023-08-12,2025-08-12,18,D003,Active
+13,"B.S. in Public Health",2025-08-13,2029-08-13,40,D004,Planned
+14,"B.S. in Health Informatics",2024-01-01,2028-01-01,40,D004,Active
+15,"M.S. in Public Health",2025-08-20,2027-08-20,18,D004,Planned
+16,"M.S. in Health Informatics",2025-05-19,2027-05-19,18,D004,Planned
+17,"B.S. in Biomedical Engineering",2023-01-23,2027-01-23,40,D005,Active
+18,"B.S. in Chemical Engineering",2022-05-09,2026-05-09,40,D005,Active
+19,"M.S. in Biomedical Engineering",2025-05-07,2027-05-07,18,D005,Planned
+20,"M.S. in Civil Engineering",2025-08-18,2027-08-18,18,D005,Planned

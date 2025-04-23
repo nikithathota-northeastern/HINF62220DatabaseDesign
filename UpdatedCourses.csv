@@ -1,0 +1,91 @@
+CoursesKey,Name,Credits,CourseType,Semester,Year,CourseMode,ClassStrength,InstructorFK,ProgramFK
+MSAI101,"Artifical Intelligence",2,Core,Spring,NULL,Online,20,,P003
+MSAI102,"Data algorithms and Data Structure",2,Core,Spring,NULL,Offline,20,,P003
+MSAI103,"Natural Language Processing",2,Elective,Fall,NULL,Offline,40,,P003
+MSAI104,"Machine Learning",2,Elective,Fall,NULL,Offline,20,,P003
+MSAI105,"AI Ethics And Fairness",2,Elective,Fall,NULL,Offline,20,,P003
+MSAI106,"Human Computer Interaction",2,General,Spring,NULL,Offline,20,,P003
+MSAI107,"Cloud Coputing for AI",2,General,Summer,NULL,Offline,20,,P003
+MSAI108,"reinforcement learning",2,General,Spring,NULL,Offline,20,,P003
+MSAI109,"AI Capstone Project",6,Capstone,Fall,NULL,Online,20,,P003
+MSDS201,"Introduction to Data science",2,Core,Fall,NULL,Offline,40,,P004
+MSDS202,"Data wrangling and pre-processing",2,Core,Fall,NULL,Offline,20,,P004
+MSDS203,"Deep Learning",2,Elective,Summer,NULL,Offline,40,,P004
+MSDS204,"Data visualization",2,Elective,Summer,NULL,Offline,20,,P004
+MSDS205,"Data ethics and privacy",2,Elective,Spring,,Offline,20,,P004
+MSDS206,"R for statistical Computing",2,Technical,Fall,,Offline,40,,P004
+MSDS207,"Python for data science",2,Technical,Spring,,Offline,20,,P004
+MSDS208,"Big data technologies",2,Technical,Spring,,Offline,20,,P004
+MSDS209,"Data science Capstone project",6,Capstone,Spring,,Online,20,,P004
+MSFI301,"Financial Accounting",2,Core,Spring,,Offline,40,,P007
+MSFI302,"Corporate Finance",2,Core,Fall,,Offline,40,,P007
+MSFI303,"Equity evaluation",2,Elective,Fall,,Online,40,,P007
+MSFI304,"behavioral finance",2,Elective,Spring,,Offline,20,,P007
+MSFI305,"financial modeling",2,Elective,Fall,,Offline,20,,P007
+MSFI306,"ML in finance",2,Technical,Spring,,Offline,40,,P007
+MSFI307,"Data analytics for finance",2,Technical,Fall,,Offline,20,,P007
+MSFI308,"programming for finance",2,Technical,Summer,,Offline,20,,P007
+MSFI309,"FI Capstone project",6,Capstone,Spring,,Online,40,,P007
+MSDA401,"Introduction to data analytics",2,Core,Spring,,Online,20,,P008
+MSDA402,"Data mining",2,Core,Spring,,Offline,40,,P008
+MSDA403,"R for statistical modeling",2,Technical,Spring,,Offline,20,,P008
+MSDA404,"Cloud platforms",2,Technical,Summer,,Offline,40,,P008
+MSDA405,"Big data analytics",2,Technical,Fall,,Offline,20,,P008
+MSDA406,"Business Intelligence",2,General,Fall,,Offline,40,,P008
+MSDA407,"Storytelling with data ",2,General,Spring,,Offline,40,,P008
+MSDA408,"Time series analysis",2,General,Summer,,Online,40,,P008
+MSDA409,"DA capstone project",6,Capstone,Fall,,Offline,40,,P008
+MSDR501,"Digital media foundation",2,Core,Fall,,Offline,40,,P011
+MSDR502,"Visual communication and design",2,Core,Fall,,Offline,20,,P011
+MSDR503,"3D modeling and animation",2,Technical,Spring,,Offline,40,,P011
+MSDR504,"UX/UI design",2,Technical,Fall,,Offline,40,,P011
+MSDR505,"web and multimedia development",2,Technical,Spring,,Offline,40,,P011
+MSDR506,"Portfolio development",2,Elective,Spring,,Offline,40,,P011
+MSDR507,"Digital ethics and media law",2,Elective,Spring,,Offline,20,,P011
+MSDR508,"cultural and social issues in digital media",2,Elective,Spring,,Offline,20,,P011
+MSDR509,"DR capstone project",6,Capstone,Fall,,Offline,20,,P011
+MAAE601,"Contemporary art practice",2,Core,Fall,,Offline,40,,P012
+MAAE602,"Art history",2,Core,Fall,,Offline,40,,P012
+MAAE603,"Performance art",2,General,Fall,,Offline,40,,P012
+MAAE604,"Digital art",2,General,Spring,,Offline,40,,P012
+MAAE605,"gender and identity in arts",2,General,Fall,,Offline,20,,P012
+MAAE606,"art and policies",2,Elective,Fall,,Offline,20,,P012
+MAAE607,"cueatorial practice",2,Elective,Spring,,Offline,40,,P012
+MAAE608,"installation art",2,Elective,Spring,,Offline,20,,P012
+MAAE609,"AR capstone project",6,Capstone,Summer,,Offline,20,,P012
+MSPH701,Epidemology,2,Core,Spring,,Offline,40,,P015
+MSPH702,Biostatistics,2,Core,Fall,,Offline,20,,P015
+MSPH703,"Publich health research methods",2,General,Spring,,Offline,40,,P015
+MSPH704,"Data management and informatics",2,General,Fall,,Offline,40,,P015
+MSPH705,Regression,2,General,Spring,,Offline,20,,P015
+MSPH706,"Infectious disease epidemology",2,Elective,Fall,,Offline,20,,P015
+MSPH707,"Chronic disease epidemology",2,Elective,Spring,,Offline,20,,P015
+MSPH708,"Systemic review and meta-analysis",2,Elective,Spring,,Offline,40,,P015
+MSPH709,"PH capstone project",6,Capstone,Spring,,Offline,40,,P015
+MSHI801,"Introduction to health informatics",2,Core,Spring,,Offline,40,,P016
+MSHI802,"Electronic health records",2,Core,Fall,,Offline,40,,P016
+MSHI803,"health data analytics",2,Technical,Spring,,Offline,40,,P016
+MSHI804,"database systems in healthcare",2,Technical,Fall,,Offline,20,,P016
+MSHI805,"data visualization for healthcare",2,Technical,Fall,,Offline,40,,P016
+MSHI806,"ethics in health informatics",2,Elective,Summer,,Offline,40,,P016
+MSHI807,"security and privacy in health informatics",2,Elective,Fall,,Offline,20,,P016
+MSHI808,"healthcare system and policies",2,Elective,Spring,,Offline,20,,P016
+MSHI809,"HI capstone project",6,Capstone,Spring,,Online,20,,P016
+MSBE901,"Biomedical Instrumentation",2,Core,Spring,,Offline,40,,P019
+MSBE902,"physiology for engineers",2,Core,Summer,,Offline,40,,P019
+MSBE903,biomechanics,2,Elective,Fall,,Offline,20,,P019
+MSBE904,"biomedical devices",2,Elective,Fall,,Offline,40,,P019
+MSBE905,"neural engineering",2,Elective,Fall,,Offline,20,,P019
+MSBE906,"medical engineering",2,General,Spring,,Offline,40,,P019
+MSBE907,biomaterials,2,General,Fall,,Offline,20,,P019
+MSBE908,"systems biology",2,General,Fall,,Offline,40,,P019
+MSBE909,"BE capstone project",6,Capstone,Summer,,Offline,40,,P019
+MSCE111,"Geotechnological Engineering",2,Core,Spring,,Offline,40,,P020
+MSCE112,"Environmental engineering",2,Core,Fall,,Offline,40,,P020
+MSCE113,"Structural engineering",2,Elective,Fall,,Offline,20,,P020
+MSCE114,"Transportation engineering",2,Elective,Spring,,Online,40,,P020
+MSCE115,"Construction management",2,Elective,Spring,,Offline,40,,P020
+MSCE116,"structural engineering lab",2,Lab,Fall,,Offline,40,,P020
+MSCE117,"concrete and steel designing lab",2,Lab,Fall,,Offline,40,,P020
+MSCE118,"fine element modeling lab",2,Lab,Fall,,Offline,20,,P020
+MSCE119,"CE capstone project",6,Capstone,Spring,,Offline,20,,P020
