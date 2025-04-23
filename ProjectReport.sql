@@ -10,9 +10,7 @@
 
 USE nthota;
 
--- DONE : Q1
--- Assuming , a student can take only 5 courses per semester.
--- 1 rows returned. Students who are taking more than 5 courses in Spring 2025.
+-- Q1
 SELECT SCR.StudentFK, COUNT(CoursesKey) as Num_Courses_Reigstered FROM StudentCourseRegistration as SCR
 	JOIN Courses as C
     ON C.CoursesKey = SCR.CourseFK
@@ -24,7 +22,6 @@ GROUP BY 1
 HAVING COUNT(CoursesKey) > 5;
 
 -- Q2
--- Number of students eligible to take course MSAI106.
 SELECT DISTINCT(StudentFK) FROM studentcourses WHERE CoursesFK = 'MSAI106'
 AND StudentFK in (
 	SELECT StudentFK FROM studentcourseregistration as SCR
@@ -32,8 +29,7 @@ AND StudentFK in (
     CourseFK IN (SELECT PreReqCourse FROM courseprereqs WHERE CourseKey = 'MSAI106')
 );
 
--- DONE
--- Q3 - Example : Graduated students of Program 3.
+-- Q3
 SELECT
 IF(SUM(Credits)>=P.ProgramCredits, "Graduated", "Not Graduated"), SUM(Credits), StudentFK, ProgramFK FROM Courses AS C
 JOIN StudentCourseRegistration AS SCR ON C.CoursesKey = SCR.CourseFK
@@ -44,14 +40,11 @@ GROUP BY StudentFK, ProgramFK
 ORDER BY 1;
 
 -- Q4
---
 SELECT CS.CoursesFK, StudentFK, Day, StartTime, EndTime FROM StudentCourseRegistration AS SCR
 JOIN Courseschedule as CS ON SCR.CourseFK = CS.CoursesFK
 WHERE RegistrationStatus = 'Registered';
 
 -- Q5
--- Number of instructors that are overloaded in the current semester
--- Overload is more than 2 courses.
 SELECT COUNT(*), InstructorFK, Semester, Year as num_courses
 FROM Courses
 WHERE Year = 2025 AND Semester = 'Spring'
@@ -60,7 +53,6 @@ HAVING COUNT(*) > 2
 ORDER BY 1 DESC;
 
 -- Q6
--- Upcoming Summer or Fall 2025
 SELECT COUNT(SCR.StudentFK), SCR.CourseFK FROM StudentCourseRegistration AS SCR
 JOIN Courses AS C ON C.CoursesKey = SCR.CourseFK
 WHERE RegistrationStatus = 'Registered' AND Year = 2025 AND (Semester = 'Summer' OR Semester = 'Fall')
@@ -76,7 +68,6 @@ GROUP BY 2
 ORDER BY 1 DESC;
 
 -- Q8
--- No conflicts.
 SELECT * FROM courseschedule CS1 , courseschedule CS2
 WHERE CS1.CoursesFK <> CS2.CoursesFK
 AND (CS1.ClassroomFK is NOT NULL AND CS2.ClassroomFK is NOT NULL)
@@ -85,7 +76,6 @@ AND (CS1.Day = CS2.Day)
 AND ((CS1.StartTime = CS2.StartTime) AND (CS2.StartTime = CS2.EndTime));
 
 -- Q9
--- AVG number of courses per student broken down by sem and year.
 SELECT AVG(NUM_COURSES), Sem, Year FROM
 (SELECT COUNT(SCR.CourseFK) AS NUM_COURSES, C.Semester AS Sem, C.Year AS Year, SCR.StudentFK as Student FROM Courses C
 JOIN StudentCourseRegistration AS SCR ON C.CoursesKey = SCR.CourseFK
